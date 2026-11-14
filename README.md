@@ -3,8 +3,8 @@
 Free website on GitHub Pages for all TsDoubleAce apps and games: a home page, one folder per
 app with its own privacy policy, and the AdMob `app-ads.txt` file.
 
-Address once published: `https://<github-username>.github.io/` (the repository must be named
-`<github-username>.github.io`).
+Address once published: `https://tsdoubleace-studio.github.io/` (the repository must be named
+`tsdoubleace-studio.github.io`).
 
 ## Files
 
@@ -29,8 +29,22 @@ Address once published: `https://<github-username>.github.io/` (the repository m
 4. If the app uses AdMob with the same AdMob account, `app-ads.txt` needs no change. A different
    ad network adds its own line.
 5. Upload (commit and push). The page is live after about a minute at
-   `https://<github-username>.github.io/arrows-puzzle/privacy.html`.
+   `https://tsdoubleace-studio.github.io/arrows-puzzle/privacy.html`.
 
 Privacy policy links to paste into Play Console (App content > Privacy policy, and the store listing):
 
-- LaughLoop Punch Game: `https://<github-username>.github.io/punch-game/privacy.html`
+- LaughLoop Punch Game: `https://tsdoubleace-studio.github.io/punch-game/privacy.html`
+
+## Publishing changes
+
+The folder is a git repository linked to `github.com/tsdoubleace-studio/tsdoubleace-studio.github.io`
+(remote URL includes the `tsdoubleace-studio@` user name so git picks that GitHub login, not the
+other one saved on this laptop). After editing:
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+GitHub Pages rebuilds the site in about a minute.
