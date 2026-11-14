@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- TsDoubleAce Studio logo: an app tile (apps) holding a game controller (games), with a star -->
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9a1f"/>
+      <stop offset=".55" stop-color="#ff4f8b"/>
+      <stop offset="1" stop-color="#7c4dff"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="8" width="50" height="50" rx="14" fill="url(#tile)" stroke="#1f1a3d" stroke-width="3"/>
+  <path d="M20 26 h22 a9 9 0 0 1 8.6 11.6 l-1.8 6 a5 5 0 0 1 -8.4 2 l-4 -4.6 h-10.8 l-4 4.6 a5 5 0 0 1 -8.4 -2 l-1.8 -6 A9 9 0 0 1 20 26 z" fill="#fff" stroke="#1f1a3d" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="20.5" y="30" width="3.4" height="10" rx="1.2" fill="#1f1a3d"/>
+  <rect x="17.2" y="33.3" width="10" height="3.4" rx="1.2" fill="#1f1a3d"/>
+  <circle cx="40" cy="31.8" r="2.3" fill="#ff4f8b"/>
+  <circle cx="44.5" cy="36" r="2.3" fill="#18b26b"/>
+  <circle cx="35.6" cy="36" r="2.3" fill="#2f80ff"/>
+  <circle cx="40" cy="40.2" r="2.3" fill="#ffc21a"/>
+  <path d="M52 2 l2.6 5.6 6 .7 -4.5 4.1 1.2 6 -5.3 -3 -5.3 3 1.2 -6 -4.5 -4.1 6 -.7 z" fill="#ffc21a" stroke="#1f1a3d" stroke-width="2" stroke-linejoin="round"/>
+</svg>
